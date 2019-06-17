@@ -1,0 +1,29 @@
+{
+    "title": "Kabanero",
+    "name": "Kabanero",
+    "logoFile": "Kabanero-full-logo.svg",
+    "logoTextFile": "Kabanero-full-logo-white.svg",
+    "favicon": "Kabanero-favicon.svg",
+    "loader": "Kabanero-loader-white.svg",
+    "ideResources": "/_app/",
+    "websocketContext": "/api/websocket",
+    "helpPath": "@@cw.docs.baseurl@@",
+    "helpTitle": "Support",
+    "supportEmail": "codewind-dev@eclipse.org",
+    "oauthDocs": "Configure OAuth in the che.properties file.",
+    "workspace": {
+        "priorityStacks": ["Codewind"],
+        "defaultStack": "codewind-default"
+    },
+    "cli": {
+        "configName": "che.env",
+        "name": "CHE"
+    },
+    "docs": {
+        "stack": "@@cw.docs.baseurl@@/creating-starting-workspaces.html",
+        "workspace": "@@cw.docs.baseurl@@/what-are-workspaces.html",
+        "factory": "@@cw.docs.baseurl@@/factories-getting-started.html",
+        "organization": "@@cw.docs.baseurl@@/organizations.html",
+        "general": "@@cw.docs.baseurl@@"
+    }
+}
