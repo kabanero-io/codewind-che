@@ -18,19 +18,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.ibm.cloud.devex</groupId>
-        <artifactId>codewind-che-assembly</artifactId>
+        <groupId>com.ibm.kabanero</groupId>
+        <artifactId>kabanero-che-assembly</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>codewind-che-assembly-wsmaster</artifactId>
+    <artifactId>kabanero-che-assembly-wsmaster</artifactId>
     <packaging>pom</packaging>
-    <name>Codewind :: Che Assembly :: Workspace Master</name>
+    <name>Kabanero :: Che Assembly :: Workspace Master</name>
     <dependencies>
-        <dependency>
-            <groupId>com.ibm.cloud.devex</groupId>
-            <artifactId>codewind-che-ide-stacks</artifactId>
+        <!-- <dependency>
+            <groupId>com.ibm.kabanero</groupId>
+            <artifactId>kabanero-che-ide-stacks</artifactId>
             <type>jar</type>
-        </dependency>
+        </dependency> -->
     </dependencies>
     <build>
         <plugins>

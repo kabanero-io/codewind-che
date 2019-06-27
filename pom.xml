@@ -16,11 +16,11 @@
         <artifactId>maven-depmgt-pom</artifactId>
         <version>7.0.0-RC-2.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.ibm.cloud.devex</groupId>
-    <artifactId>codewind-che</artifactId>
+    <groupId>com.ibm.kabanero</groupId>
+    <artifactId>kabanero-che</artifactId>
     <version>0.0.1</version>
     <packaging>pom</packaging>
-    <name>Codewind</name>
+    <name>Kabanero</name>
     <url>https://www.eclipse.org/che/</url>
     <licenses>
         <license>
@@ -38,22 +38,22 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.ibm.cloud.devex</groupId>
-                <artifactId>codewind-che-assembly-dashboard</artifactId>
+                <groupId>com.ibm.kabanero</groupId>
+                <artifactId>kabanero-che-assembly-dashboard</artifactId>
                 <type>war</type>
                 <version>${mc.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.ibm.cloud.devex</groupId>
-                <artifactId>codewind-che-assembly-wsmaster</artifactId>
+                <groupId>com.ibm.kabanero</groupId>
+                <artifactId>kabanero-che-assembly-wsmaster</artifactId>
                 <type>war</type>
                 <version>${mc.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.ibm.cloud.devex</groupId>
-                <artifactId>codewind-che-ide-stacks</artifactId>
+            <!-- <dependency>
+                <groupId>com.ibm.kabanero</groupId>
+                <artifactId>kabanero-che-ide-stacks</artifactId>
                 <version>${mc.version}</version>
-            </dependency>
+            </dependency> -->
             <dependency>
                 <groupId>org.eclipse.che</groupId>
                 <artifactId>che-parent</artifactId>
@@ -100,6 +100,6 @@
     </pluginRepositories>
     <modules>
         <module>assembly</module>
-        <module>ide</module>
+        <!-- <module>ide</module> -->
     </modules>
 </project>

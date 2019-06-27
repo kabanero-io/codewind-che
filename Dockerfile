@@ -11,9 +11,9 @@
 
 FROM openjdk:8u191-jdk-alpine
 
-ENV SUMMARY="Codewind container (Eclipse Che Server)" \
-    DESCRIPTION="Codewind container (Eclipse Che Server)" \
-    PRODNAME="Codewind" \
+ENV SUMMARY="Kabanero container (Eclipse Che Server)" \
+    DESCRIPTION="Kabanero container (Eclipse Che Server)" \
+    PRODNAME="Kabanero" \
     COMPNAME="server-container"
 
 LABEL summary="$SUMMARY" \
@@ -28,9 +28,9 @@ LABEL summary="$SUMMARY" \
 
 USER root
 COPY entrypoint.sh /entrypoint.sh
-RUN mkdir -p /home/user/codewind
+RUN mkdir -p /home/user/kabanero
 
-COPY assembly/main/target/codewind-che-assembly-main /home/user/codewind
+COPY assembly/main/target/kabanero-che-assembly-main /home/user/kabanero
 RUN mkdir -p /logs /data && \
     chgrp -R 0     /home/user /data /logs && \
     chmod -R g+rwX /home/user /data /logs && \

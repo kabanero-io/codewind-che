@@ -1,19 +1,20 @@
-# Codewind Assembly for Che
-Assembly for Codewind branded version of Che
+# Kabanero Assembly for Che
 
-[![Eclipse License](https://img.shields.io/badge/license-Eclipse-brightgreen.svg)](https://github.ibm.com/dev-ex/tempest/blob/master/LICENSE)
+Assembly for Kabanero branded version of Che
+
+[![Eclipse License](https://img.shields.io/badge/license-Eclipse-brightgreen.svg)](https://www.eclipse.org/legal/epl-2.0/)
 
 ## Build
 
 `$ mvn clean install`
 
-This creates the main assembly in `assembly/main/target/codewind-che-assembly-main`
+This creates the main assembly in `assembly/main/target/kabanero-che-assembly-main`
 
 ## Package
 
-`$ docker build --force-rm -t codewind-che .`
+`$ docker build --force-rm -t kabanero-che .`
 
-This creates the `codewind-che` docker image
+This creates the `kabanero-che` docker image
 
 ## References
 
@@ -23,9 +24,12 @@ This repo is created based on the following:
 - https://github.com/redhat-developer/codeready-workspaces
 
 ## Contributing
+
 We welcome submitting issues and contributions.
-1. [Submitting bugs](https://github.com/eclipse/codewind/issues)
+
+1. [Submitting bugs](https://github.com/kabanero-io/kabanero-che/issues)
 2. [Contributing](CONTRIBUTING.md)
 
 ## License
+
 [EPL 2.0](https://www.eclipse.org/legal/epl-2.0/)

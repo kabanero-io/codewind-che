@@ -232,7 +232,7 @@ init() {
     export CHE_HOME="/assembly"
   else
     echo "Using embedded assembly..."
-    export CHE_HOME=$(echo /home/user/codewind/)
+    export CHE_HOME=$(echo /home/user/kabanero/)
   fi
 
   ### We need to discover the host mount provided by the user for `/data`

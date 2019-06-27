@@ -15,15 +15,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.ibm.cloud.devex</groupId>
-        <artifactId>codewind-che-assembly</artifactId>
+        <groupId>com.ibm.kabanero</groupId>
+        <artifactId>kabanero-che-assembly</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>codewind-che-assembly-dashboard</artifactId>
+    <artifactId>kabanero-che-assembly-dashboard</artifactId>
     <packaging>pom</packaging>
-    <name>Codewind :: Che Assembly :: Dashboard</name>
+    <name>Kabanero :: Che Assembly :: Dashboard</name>
     <properties>
-        <cw.docs.baseurl>https://codewind.dev</cw.docs.baseurl>
+        <cw.docs.baseurl>https://kabanero.io</cw.docs.baseurl>
         <product.json.file>${project.basedir}/src/main/webapp/assets/branding/product.json</product.json.file>
     </properties>
     <build>

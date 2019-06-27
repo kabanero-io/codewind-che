@@ -12,8 +12,8 @@
     "supportEmail": "codewind-dev@eclipse.org",
     "oauthDocs": "Configure OAuth in the che.properties file.",
     "workspace": {
-        "priorityStacks": ["Codewind"],
-        "defaultStack": "codewind-default"
+        "priorityStacks": [],
+        "defaultStack": ""
     },
     "cli": {
         "configName": "che.env",

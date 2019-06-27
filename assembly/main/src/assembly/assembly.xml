@@ -24,7 +24,7 @@
             <outputDirectory>tomcat/webapps</outputDirectory>
             <outputFileNameMapping>dashboard.war</outputFileNameMapping>
             <includes>
-                <include>com.ibm.cloud.devex:codewind-che-assembly-dashboard</include>
+                <include>com.ibm.kabanero:kabanero-che-assembly-dashboard</include>
             </includes>
         </dependencySet>
         <dependencySet>
@@ -33,7 +33,7 @@
             <outputDirectory>tomcat/webapps</outputDirectory>
             <outputFileNameMapping>api.war</outputFileNameMapping>
             <includes>
-                <include>com.ibm.cloud.devex:codewind-che-assembly-wsmaster</include>
+                <include>com.ibm.kabanero:kabanero-che-assembly-wsmaster</include>
             </includes>
         </dependencySet>
     </dependencySets>

@@ -19,14 +19,14 @@
     </formats>
     <includeBaseDirectory>false</includeBaseDirectory>
     <dependencySets>
-        <dependencySet>
+        <!-- <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
             <unpack>false</unpack>
             <outputDirectory>WEB-INF/lib</outputDirectory>
             <includes>
-                <include>com.ibm.cloud.devex:codewind-che-ide-stacks</include>
+                <include>com.ibm.kabanero:kabanero-che-ide-stacks</include>
             </includes>
-        </dependencySet>
+        </dependencySet> -->
     </dependencySets>
     <fileSets>
         <fileSet>

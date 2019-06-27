@@ -12,22 +12,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.ibm.cloud.devex</groupId>
-        <artifactId>codewind-che-assembly</artifactId>
+        <groupId>com.ibm.kabanero</groupId>
+        <artifactId>kabanero-che-assembly</artifactId>
         <version>0.0.1</version>
     </parent>
-    <artifactId>codewind-che-assembly-main</artifactId>
+    <artifactId>kabanero-che-assembly-main</artifactId>
     <packaging>pom</packaging>
-    <name>Codewind :: Che Assembly :: Main</name>
+    <name>Kabanero :: Che Assembly :: Main</name>
     <dependencies>
         <dependency>
-            <groupId>com.ibm.cloud.devex</groupId>
-            <artifactId>codewind-che-assembly-dashboard</artifactId>
+            <groupId>com.ibm.kabanero</groupId>
+            <artifactId>kabanero-che-assembly-dashboard</artifactId>
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>com.ibm.cloud.devex</groupId>
-            <artifactId>codewind-che-assembly-wsmaster</artifactId>
+            <groupId>com.ibm.kabanero</groupId>
+            <artifactId>kabanero-che-assembly-wsmaster</artifactId>
             <type>war</type>
         </dependency>
     </dependencies>
