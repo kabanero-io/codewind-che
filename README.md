@@ -16,6 +16,8 @@ This creates the main assembly in `assembly/main/target/kabanero-che-assembly-ma
 
 This creates the `kabanero-che` docker image
 
+> You can also use the provided `build.sh` script to build and package in one step.
+
 ## References
 
 This repo is created based on the following:
