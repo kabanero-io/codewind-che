@@ -22,15 +22,15 @@ This creates the `kabanero-che` docker image
 
 Prerequisites: Kabanero on Kubernetes (see the [requirements](https://github.com/kabanero-io/roadmap/blob/master/README.md#kabanero-foundation-in-a-kubernetes-cluster-prerequisites))
 
-Follow the instructions [here](https://www.eclipse.org/codewind/installoncloud.html) to setup a Codewind-ready install of Che, but with one difference:
+Refer to the instructions [here](https://www.eclipse.org/codewind/installoncloud.html) to setup a Codewind-ready install of Che. Specifically, you should follow the steps for setting up on OKD, but include the `--image-che` flag when invoking the `deploy_che.sh` script.
 
-At step #3 under the section "Setting up OKD and OpenShift", replace the command
+That is, under the section "Setting up OKD and OpenShift", for step #3 instead of:
 
-`Deploy Che with ./deploy_che.sh`
+3. Deploy Che with `./deploy_che.sh`
 
-With
+Do this:
 
-`Deploy Che with ./deploy_che.sh --image-che=kabanero-che:latest`
+3. Deploy Che with `./deploy_che.sh --image-che=kabanero-che:latest`
 
 ## References
 
