@@ -6,17 +6,15 @@ Assembly for Kabanero branded version of Che
 
 ## Build
 
-`$ mvn clean install`
+`$ make`
 
 This creates the main assembly in `assembly/main/target/kabanero-che-assembly-main`
 
 ## Package
 
-`$ docker build --force-rm -t kabanero-che .`
+`$ make build-image`
 
-This creates the `kabanero-che` docker image
-
-> You can also use the provided `build.sh` script to build and package in one step.
+This creates the `kabanero/kabanero-che` docker image
 
 ## Installing on Kabanero
 
@@ -33,7 +31,7 @@ spec:
     cheImageTag: 'latest'
 ```
 
-> If you've built the `kabanero-che` image yourself per instructions above, then you must push the image to a public registry (e.g. Docker Hub) and adjust the value of the `cheImage` property accordingly.
+> If you've built the `kabanero/kabanero-che` image yourself per instructions above, then you must push the image to a public registry (e.g. Docker Hub) and adjust the value of the `cheImage` and `cheImageTag` properties accordingly.
 
 ## References
 
