@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.eclipse.che.depmgt</groupId>
         <artifactId>maven-depmgt-pom</artifactId>
-        <version>7.2.0</version>
+        <version>7.3.0</version>
     </parent>
     <groupId>com.ibm.kabanero</groupId>
     <artifactId>kabanero-che</artifactId>
@@ -30,7 +30,7 @@
         </license>
     </licenses>
     <properties>
-        <che.version>7.2.0</che.version>
+        <che.version>7.3.0</che.version>
         <che.dashboard.version>${che.version}</che.dashboard.version>
         <mc.version>0.5.0</mc.version>
         <mc.dashboard.version>${mc.version} (Eclipse Che ${che.version})</mc.dashboard.version>
