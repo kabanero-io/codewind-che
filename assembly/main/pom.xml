@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.ibm.kabanero</groupId>
         <artifactId>kabanero-che-assembly</artifactId>
-        <version>0.5.0</version>
+        <version>0.5.1</version>
     </parent>
     <artifactId>kabanero-che-assembly-main</artifactId>
     <packaging>pom</packaging>
