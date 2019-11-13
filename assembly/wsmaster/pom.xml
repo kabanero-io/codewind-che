@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.ibm.kabanero</groupId>
         <artifactId>kabanero-che-assembly</artifactId>
-        <version>0.5.1</version>
+        <version>0.6.0</version>
     </parent>
     <artifactId>kabanero-che-assembly-wsmaster</artifactId>
     <packaging>pom</packaging>
@@ -73,7 +73,7 @@
                             <tasks>
                                 <replaceregexp file="${project.build.directory}/source-war/WEB-INF/classes/che/che.properties"
                                                match="^che.workspace.devfile_registry_url=.*$"
-                                               replace="che.workspace.devfile_registry_url=https://raw.githubusercontent.com/kabanero-io/codewind-templates/0.5.1"
+                                               replace="che.workspace.devfile_registry_url=https://raw.githubusercontent.com/kabanero-io/codewind-templates/0.6.0"
                                                byline="true"/>
                             </tasks>
                         </configuration>
