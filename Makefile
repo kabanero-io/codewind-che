@@ -24,10 +24,5 @@ ifdef TRAVIS_TAG
 	# This is a Travis tag build. Pushing using Docker tag TRAVIS_TAG
 	docker tag $(IMAGE) $(REPOSITORY):$(TRAVIS_TAG)
 	docker push $(REPOSITORY):$(TRAVIS_TAG)
-endif
-
-ifdef TRAVIS_BRANCH
-	# This is a Travis branch build. Pushing using Docker tag TRAVIS_BRANCH
-	docker tag $(IMAGE) $(REPOSITORY):$(TRAVIS_BRANCH)
-	docker push $(REPOSITORY):$(TRAVIS_BRANCH)
+	docker push $(REPOSITORY):latest
 endif
