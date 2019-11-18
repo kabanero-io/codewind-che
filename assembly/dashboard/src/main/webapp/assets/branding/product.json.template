@@ -7,8 +7,8 @@
     "loader": "loader.svg",
     "ideResources": "/_app/",
     "websocketContext": "/api/websocket",
-    "helpPath": "@@cw.docs.baseurl@@/guides",
-    "helpTitle": "Guides",
+    "helpPath": "https://ibm-cloud-tech.slack.com/messages/CJZCYTD0Q",
+    "helpTitle": "Support",
     "supportEmail": "codewind-dev@eclipse.org",
     "oauthDocs": "Configure OAuth in the che.properties file.",
     "workspace": {
