@@ -7,7 +7,7 @@
     "loader": "loader.svg",
     "ideResources": "/_app/",
     "websocketContext": "/api/websocket",
-    "helpPath": "@@cw.docs.baseurl@@",
+    "helpPath": "https://ibm-cloud-tech.slack.com/messages/CJZCYTD0Q",
     "helpTitle": "Support",
     "supportEmail": "codewind-dev@eclipse.org",
     "oauthDocs": "Configure OAuth in the che.properties file.",
@@ -24,6 +24,6 @@
         "workspace": "@@cw.docs.baseurl@@/what-are-workspaces.html",
         "factory": "@@cw.docs.baseurl@@/factories-getting-started.html",
         "organization": "@@cw.docs.baseurl@@/organizations.html",
-        "general": "@@cw.docs.baseurl@@"
+        "general": "@@cw.docs.baseurl@@/docs"
     }
 }
