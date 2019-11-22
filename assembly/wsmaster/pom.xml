@@ -58,7 +58,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.8</version>
@@ -73,13 +73,13 @@
                             <tasks>
                                 <replaceregexp file="${project.build.directory}/source-war/WEB-INF/classes/che/che.properties"
                                                match="^che.workspace.devfile_registry_url=.*$"
-                                               replace="che.workspace.devfile_registry_url=https://raw.githubusercontent.com/kabanero-io/codewind-templates/0.6.0"
+                                               replace="che.workspace.devfile_registry_url=https://raw.githubusercontent.com/kabanero-io/codewind-templates/0.0.0"
                                                byline="true"/>
                             </tasks>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
