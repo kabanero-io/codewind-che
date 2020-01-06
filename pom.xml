@@ -18,7 +18,7 @@
     </parent>
     <groupId>com.ibm.kabanero</groupId>
     <artifactId>kabanero-che</artifactId>
-    <version>0.6.0</version>
+    <version>0.7.0</version>
     <packaging>pom</packaging>
     <name>Kabanero</name>
     <url>https://www.eclipse.org/che/</url>
@@ -32,7 +32,7 @@
     <properties>
         <che.version>7.3.1</che.version>
         <che.dashboard.version>${che.version}</che.dashboard.version>
-        <mc.version>0.6.0</mc.version>
+        <mc.version>0.7.0</mc.version>
         <mc.dashboard.version>${mc.version} (Eclipse Che ${che.version})</mc.dashboard.version>
     </properties>
     <dependencyManagement>

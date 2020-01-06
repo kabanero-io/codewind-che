@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.ibm.kabanero</groupId>
         <artifactId>kabanero-che-assembly</artifactId>
-        <version>0.6.0</version>
+        <version>0.7.0</version>
     </parent>
     <artifactId>kabanero-che-assembly-wsmaster</artifactId>
     <packaging>pom</packaging>
